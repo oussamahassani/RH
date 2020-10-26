@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1603698741919,
+  "timestamp": 1603700536278,
   "index": "/app.html",
   "assetGroups": [
     {
@@ -19,8 +19,8 @@
         "/7-es5.f8ad8454112307f3207e.js",
         "/app.html",
         "/favicon.ico",
-        "/main-es2015.642d9dccff5df67dad3e.js",
-        "/main-es5.642d9dccff5df67dad3e.js",
+        "/main-es2015.bfbb8b2d06217be032c8.js",
+        "/main-es5.bfbb8b2d06217be032c8.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.3172b07dd04ed8065920.js",
         "/polyfills-es5.9039cbe739ec5eca0572.js",
@@ -166,7 +166,7 @@
     "/6-es5.dc5632afdfd2b59ae568.js": "1ffb61dd0d90ccfc9e64a86627599eda9f3751c3",
     "/7-es2015.f8ad8454112307f3207e.js": "6583b52bd7bb3af6d07362bcb905db3d7273f524",
     "/7-es5.f8ad8454112307f3207e.js": "81572fbb069148a9a4651b750ec7b1fa6d7c6377",
-    "/app.html": "963e8aa26e309a12108b7e9cad76f4801c4bd7f3",
+    "/app.html": "65afadfd15cb7ccd7d31b598966c62f9e1ea16c6",
     "/assets/audio/light.mp3": "238f8b17a4658f52aafcb13ca3077327ac377fd0",
     "/assets/css/demo.css": "ef07f513d881032f56f9bf4a90533fe612917ce9",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
@@ -283,8 +283,8 @@
     "/assets/scss/core/variables/_type.scss": "d382ab8705546b30d3768ed3ebcfb11ebe0736a7",
     "/assets/scss/material-dashboard.scss": "c1f31bffd748226524bceae92693dc49defd461c",
     "/favicon.ico": "e05fb644f966ce0ec23cef5d522385a3efa79de6",
-    "/main-es2015.642d9dccff5df67dad3e.js": "ac86fa456188a77b1429b608e3fee05be0532fec",
-    "/main-es5.642d9dccff5df67dad3e.js": "f2459d15d1322027360f2a4167b72a67e3364420",
+    "/main-es2015.bfbb8b2d06217be032c8.js": "09a7c056d3dac018f9e74eaf1eab76a2856b07ac",
+    "/main-es5.bfbb8b2d06217be032c8.js": "1e338df1396503bf57b195e430dc4f43f65a6e28",
     "/manifest.webmanifest": "b6ac0544fb4a3d0b4dfd270b0673daec02426041",
     "/polyfills-es2015.3172b07dd04ed8065920.js": "4a15109c68db2b90bbb974a100d49fe2416d644c",
     "/polyfills-es5.9039cbe739ec5eca0572.js": "ff5961a4622b4f3f25d90de292b199ec80199a90",
