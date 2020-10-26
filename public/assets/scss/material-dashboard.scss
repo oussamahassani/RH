@@ -1,0 +1,203 @@
+/*!
+
+=========================================================
+* Material Dashboard Angular - v2.3.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-dashboard-angular2
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-angular2/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+ @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+ @import "core/variables";
+ @import "core/mixins";
+ @import "~bootstrap/scss/bootstrap";
+
+
+ // Core Components
+ @import "core/buttons";
+ @import "core/checkboxes";
+ @import "core/radios";
+ @import "core/forms";
+ @import "core/input-group";
+ @import "core/images";
+ @import "core/navbar";
+ @import "core/alerts";
+ @import "core/type";
+ @import "core/tabs";
+ @import "core/tooltip";
+ @import "core/popover";
+ @import "core/dropdown";
+ @import "core/togglebutton";
+ @import "core/ripples";
+ @import "core/footers";
+ @import "core/sidebar-and-main-panel";
+ @import "core/fixed-plugin";
+ @import "core/tables";
+ @import "core/misc";
+
+@import "core/cards";
+@import "core/cards/card-stats";
+@import "core/cards/card-profile";
+@import "core/cards/card-plain";
+
+ //plugin scss
+ @import "core/plugins/animate";
+ @import "core/plugins/chartist";
+ @import "core/plugins/perfect-scrollbar";
+
+ @import "core/responsive";
+
+@import "core/angular-modal.scss";
+
+
+.myIntroJs{
+  min-width: 250px !important;
+  color: blue;
+}
+
+.myIntroJs .introjs-tooltiptext{
+   h4{
+      color : black;
+      padding : 5px; 
+   }
+   h5{
+     color : #808080 ;
+     padding :7px;
+     margin-bottom: 0px;
+   }
+}
+
+.myIntroJs .introjs-skipbutton {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: #fff;
+    background: #f44336;
+    border-color: #f44336;
+    box-shadow: 0 2px 2px 0 rgba(244, 67, 54, 0.14), 0 3px 1px -2px rgba(244, 67, 54, 0.2), 0 1px 5px 0 rgba(244, 67, 54, 0.12);
+    position: relative;
+    padding: 8px 20px;
+    margin: 0.3125rem 1px;
+    min-width: auto;
+    font-size: .75rem;
+    font-weight: 100;
+    font: 400 13.3333px Arial;
+    text-shadow: none;;
+    line-height: 1.42857143;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    letter-spacing: 0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0.2rem;
+  }
+
+  
+
+  .myIntroJs .introjs-nextbutton  {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: #fff;
+    background: #00bcd4;
+    border-color: #00bcd4;
+    box-shadow: 0 2px 2px 0 rgba(244, 67, 54, 0.14), 0 3px 1px -2px rgba(244, 67, 54, 0.2), 0 1px 5px 0 rgba(244, 67, 54, 0.12);
+    position: relative;
+    padding: 8px 20px;
+    margin: 0.3125rem 1px;
+    min-width: auto;
+    font-size: .75rem;
+    font-weight: 100;
+    font: 400 13.3333px Arial;
+    text-shadow: none;;
+    line-height: 1.42857143;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    letter-spacing: 0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0.2rem;
+  }
+
+  .myIntroJs .introjs-nextbutton:hover {
+    color: #fff;
+    background: #00bcd4;
+  
+  }
+  .myIntroJs .introjs-skipbutton:hover {
+    color: #fff;
+    background: #f44336;
+  
+  }
+
+  .myIntroJs .introjs-nextbutton:focus {
+    color: #fff;
+    background: #00bcd4;
+  
+  }
+  .myIntroJs .introjs-skipbutton:focus {
+    color: #fff;
+    background: #f44336;
+  
+  }
+.introjs-fixParent:not(.noparent){position: absolute !important;}
+
+.introjs-prevbutton {
+  display:none !important;
+}
+
+
+// .custom-snack-error::before{
+//   content : '!!';
+//   height : inherit ;
+//   width: 20%;
+//   display: inline-block;
+//   background: red ;
+// }
+// .custom-snack-error{
+//   display: inline-block;
+//   border-color : #808080 ;
+//   color : #808080;
+//   background: rgb(255,255,255);
+//   background: linear-gradient(90deg, rgba(255,255,255,1) 79%, rgba(255,255,255,1) 79%, rgba(255,0,0,1) 79%, rgba(255,0,0,1) 100%);
+// }
+
+// .custom-snack-error .mat-simple-snackbar-action  {
+//   color: #FFFFFF;
+// }
+
+.mat-snack-bar-container {
+  background: white !important;
+  color : #808080 ;
+}
+
+.mat-simple-snackbar-action{
+  color :#808080 !important
+}
+
+.custom-snack  {
+  border-left: green 15px solid !important ;
+}
+
+.custom-snack-error  {
+  border-left: #f44336 15px solid !important ;
+}
+
+.float{
+  z-index: 99999999 !important;
+	position:fixed !important;
+	bottom:40px !important;
+	right:40px !important;
+	box-shadow: 2px 2px 3px #999 !important;
+}
+
+.my-float{
+	margin-top:22px;
+}

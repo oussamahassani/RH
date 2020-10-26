@@ -1,0 +1,69 @@
+{
+  "name": "ged-backend",
+  "version": "1.0.0",
+  "description": "BACK-END OF XPR BASED ON NODEJS, EXPRESS, MONGODB. ALL RIGHT RESERVED XPR",
+  "repository": {
+    "type": "git",
+    "url": "https://xprtn@dev.azure.com/xprtn/ged/_git/ged"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js" 
+  
+    
+  },
+  "author": "devlopy",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.626.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "bufferutil": "^4.0.1",
+    "bunyan": "^1.8.12",
+    "compression": "^1.7.4",
+    "connect-mongo": "^3.1.2",
+    "cors": "*",
+    "cron": "^1.8.2",
+    "crypto-js": "^3.1.9-1",
+    "date-and-time": "^0.12.0",
+    "date-fns": "^1.30.1",
+    "express": "*",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.17.0",
+    "glob": "^7.1.6",
+    "googleapis": "^39.2.0",
+    "helmet": "^3.22.0",
+    "howler": "^2.1.1",
+    "http-status": "^1.3.1",
+    "jsonwebtoken": "^8.5.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.23",
+    "mongodb": "^3.1.12",
+    "mongoose": "^5.7.7",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "mongoose-paginate-v2": "^1.3.6",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "multer-s3": "^2.9.0",
+    "nodemailer": "^6.4.2",
+    "nodemon": "^1.19.1",
+    "objects-to-csv": "^1.3.6",
+    "passport": "*",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "proxy-middleware": "^0.15.0",
+    "rrule": "^2.6.0",
+    "save": "^2.4.0",
+    "socket.io": "^2.3.0",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^3.1.43",
+    "@types/jwt-decode": "^2.2.1"
+  },
+  "engines": {
+    "node": "10.15.0"
+  }
+}
